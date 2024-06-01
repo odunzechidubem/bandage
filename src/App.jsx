@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import HeroSection from './components/Herosection/HeroSection';
+import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts';
 import './App.css';
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <div className="App">
         <Navbar />
         <HeroSection />
+        <FeaturedProducts />
       </div>
     </div>
 

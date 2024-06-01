@@ -1,0 +1,91 @@
+.header{
+    width: 100%;
+    background-color: rgba(35, 133, 109, 1);
+    padding: 3px 5px;
+    height: 58px;
+    overflow: hidden;
+    gap: 324px;
+}
+.row{
+ 
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+.col{
+    gap: 30px;
+     display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    color: white;
+}
+.col h6{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.20000000029;
+    text-align: left;
+    line-height: 24px;
+}
+
+.text{
+    gap: 5px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.icon{
+    height: 16px;
+    width: 16px;
+}
+.icon2{
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-brand{
+    width: 10%;
+    height: 58px;
+    padding: 10px;
+    
+  
+}
+.navbar-brand h3{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.101;
+}
+.collaps-section{
+    
+    width: 90%;
+    height: 58px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.navbarbar {
+    padding: 10px;
+   width: 30%;
+}
+.navbarbar ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-signs{
+    padding: 10px;
+    width: 20%;
+    height: 58px;
+}
+.btn-signs .icons img{
+    margin-left: 1.5rem;
+}
+
+

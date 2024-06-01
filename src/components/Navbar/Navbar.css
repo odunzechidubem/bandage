@@ -1,5 +1,3 @@
-/* src/Navbar.css */
-
 .navbar {
     width: 100%;
     position: fixed;
@@ -14,16 +12,18 @@
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #317553;
-    color: white; 
+    color: white;
     font-size: 14px;
   }
   
   .navbar-contact span {
     margin-right: 20px;
+    font-size: 16px;
   }
   
   .navbar-promo {
     text-align: right;
+    font-size: 16px;
   }
   
   .navbar-main {
@@ -31,23 +31,49 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid #ddd;
   }
   
   .navbar-logo {
     font-size: 24px;
     font-weight: bold;
+    margin-right: 60px; /* Adjust this value to control the space between logo and links */
+  }
+  
+  .navbar-links {
+    display: flex;
+    margin-left: 5px; /* Remove the negative margin */
   }
   
   .navbar-links a {
-    margin: 0 15px;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .navbar-icons a {
     margin: 0 10px;
     color: #333;
     text-decoration: none;
   }
   
+  .navbar-icons {
+    display: flex;
+    margin-left: auto; /* Pushes the icons to the right */
+  }
+  
+  .navbar-icons a {
+    margin: 0 10px;
+    color: #2e7be0;
+    text-decoration: none;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.social-media span {
+    margin-right: 10px;
+    margin-top: -9px;
+}
+
+.social-media a {
+    margin: 4px 5px;
+    text-decoration: none;
+    color: inherit;
+}
