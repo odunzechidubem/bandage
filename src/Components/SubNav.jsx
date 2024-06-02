@@ -19,7 +19,7 @@ export default function SubNav() {
             <li>Home</li>
           </Link>
           <Link className="no-decoration-links" to="/shop">
-            <li className="nav-arrow">
+            <li className="nav-arrow">Shop
               <FontAwesomeIcon icon={faAngleDown} />
             </li>   
           </Link>
