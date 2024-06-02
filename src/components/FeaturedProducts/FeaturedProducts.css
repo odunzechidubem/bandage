@@ -1,7 +1,6 @@
-/* FeaturedProducts.css */
-
 .featured-products {
-    padding: 40px 20px;
+    padding: 50px 20px;
+    padding-left: 225px;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -36,7 +35,7 @@
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product-image {
@@ -81,13 +80,14 @@
     margin-top: 30px;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
-    background-color: #27ae60;
-    border: none;
+    color: #1ba2ee;
+    background-color: #fff;
+    border: 1px solid #1ba2ee;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .load-more-button:hover {
-    background-color: #219150;
+    background-color: #1ba2ee;
+    color: white;
 }

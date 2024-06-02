@@ -1,13 +1,14 @@
 import { FaCartShopping, FaHeart, FaUser } from 'react-icons/fa6';
-import { FaFacebook, FaInstagram, FaPhoneAlt, FaSearch, FaTwitter,  } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaSearch, FaTwitter,  } from "react-icons/fa";
 import './Navbar.css';
+import { FiPhone } from 'react-icons/fi';
 
 const Navbar = () => {
     return (
         <header className="navbar">
             <div className="navbar-top">
                 <div className="navbar-contact">
-                    <span><FaPhoneAlt /> (225) 555-0118</span>
+                    <span><FiPhone style={{ fontSize: '1.3rem', paddingTop: 'px' }}/> (225) 555-0118</span>
                     <span>michelle.rivera@example.com</span>
                 </div>
                 <div className="navbar-promo">

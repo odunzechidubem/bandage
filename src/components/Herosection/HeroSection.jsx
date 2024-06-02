@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="container fixed-width">
         <div className="rows">
           <div className="card1 cards">
-            <img src={card1} alt="Card 1" />
+            <img src={card1} alt="Card 1" /> 
             <div className="attachment">
               <h6 className="green">5 Items</h6>
               <h2 className="highlight">FURNITURE</h2>
@@ -45,8 +45,6 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-
-        {/* <Productcards /> */}
       </div>
     </>
   );
